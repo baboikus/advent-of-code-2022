@@ -22,7 +22,7 @@ Link to puzzle list [adventofcode.com](https://adventofcode.com/2022).
 17. First part solution is minimal tetris game. Second part solved by finding cycles in the game states due to deterministic nature of whole game process.
 18. 3D BFS! Oh boy!
 19. Some dynamic programming again. We are using branch and bound approach to reduce memotable size. And it's better to not memorize values for last steps.
-20. The secret to effective mixing is to reduce the number of steps. Since the list has a cyclic structure, we can control the remainder of the division by the length of the list.
+20. The secret to effective mixing is to reduce the number of steps. Since the list has a cyclic structure, we can only use remainders from division by the length of the list.
 21.
 22.
 23.
