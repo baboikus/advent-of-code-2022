@@ -14,14 +14,17 @@ Link to puzzle list [adventofcode.com](https://adventofcode.com/2022).
 9. Simulate rope movement from part one in the same way for each pair of consequent rope nodes from part two. Mark rope last node position after every move.
 10. Carefully translate description of CRT from puzzle to code.
 11. We can't store worry level directly, but since there is limited number of monkeys and their dividers checks we can use modulo division properties.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
+12. BFS from start 'a' to finish 'E' and from 'E' to any 'a'.
+13. Functional style in zig kind of verbose. Instead of using two stacks we are fully parsing lists to "recursive" structures and traverse two of this simultaneously.
+14. Another puzzle solved by simply translated falling rules to code.
+15. This one could be solved more elegant and effective but brute force approach works for me.
+16. Finally some good old dynamic programming. The second part solved by using property of your and elephant's state symmetry. We can swap position of elephant and you any turn.
+17. First part solution is minimal tetris game. Second part solved by finding cycles in the game states due to deterministic nature of whole game process.
+18. 3D BFS! Oh boy!
+19. Some dynamic programming again. We are using branch and bound approach to reduce memotable size. And it's better to not memorize values for last steps.
+20. The secret to effective mixing is to reduce the number of steps. Since the list has a cyclic structure, we can control the remainder of the division by the length of the list.
 21.
 22.
+23.
+24.
+25.
