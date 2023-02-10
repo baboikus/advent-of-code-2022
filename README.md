@@ -23,8 +23,8 @@ Link to puzzle list [adventofcode.com](https://adventofcode.com/2022).
 18. 3D BFS! Oh boy!
 19. Some dynamic programming again. We are using branch and bound approach to reduce memotable size. And it's better to not memorize values for last steps.
 20. The secret to effective mixing is to reduce the number of steps. Since the list has a cyclic structure, we can only use remainders from division by the length of the list.
-21.
-22.
-23.
-24.
-25.
+21. First we build dependecy tree. For first part solution is DFS and whole tree reduction. For second part we need construct reverse versions of initial operations and use approach from previous part for know subtree values.
+22. This one kind of overkill, but i decided to find solution for arbitrary cube folding. So we need to parse the input, fold the cube, find combined edges, generate right teleports and finally model movement around resulting map.
+23. Cellular automata for life!
+24. More BFS through graph of states. The key to the solution is cycling nature of blizzards positions. Also we don't need to care about whole map state, knowing states of current pos neighbours is enought, which we can calculate effectivly.
+25. Let's reinvent basic rules for addition single digit numbers and the use them in default version of large numbers addition.
